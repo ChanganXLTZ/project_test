@@ -11,8 +11,10 @@ print(math.sin(80)) # 返回x的弧度的正弦值。
 print(math.tan(80)) # 返回x的弧度的正切值。
 print(math.hypot(1,2)) # 返回欧几里德范数 sqrt(x*x + y*y)。
 
-print(math.degrees(x)) # 将弧度转换为角度,如degrees(math.pi/2) ， 返回90.0
-print(math.radians(30)) # 将角度转换为弧度
+Rad_a = math.pi/2
+Deg_a = math.degrees(Rad_a)
+print('弧度转换为角度',Deg_a) # 将弧度转换为角度,如degrees(math.pi/2) ， 返回90.0
+print('将角度转换为弧度',math.radians(Deg_a)) # 将角度转换为弧度
 
 print("圆周率",math.pi)
 print("自然对数",math.e)
