@@ -25,9 +25,9 @@ else:
     print("a和b都不为true")
 
 if a or not b: # 布尔"非" - 如果 x 为 True，返回 False 。如果 x 为 False，它返回 True。
-    print("a和b至少一个为true")
+    print("a和非b至少一个为true")
 else:
-    print("a和b都不为true")
+    print("a和非b都不为true")
 print(not b)
 print(not a)
 print(b and not a)
