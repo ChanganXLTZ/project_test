@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
-
 import sys
 for i in sys.argv:
     print(i)
+print('sys.argv的数据类型为：',type(sys.argv))
 path_s = sys.path
-print("\npython3路径为" ,sys.path)
-print(sys.path)
-print("路径为"+ path_s[1]) # 这里调用函数的返回值为list型，无法整体直接输出屏幕
+print("\n当前python3路径为",path_s)
+print("路径为"+path_s[2]) # 此处包的属性为一字符串数组，前两个元素为空？
