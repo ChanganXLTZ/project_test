@@ -11,12 +11,11 @@ for a in [1,2,3,4,5,5,6,7,7,8,8,9,9,10,12,13,14,56,78]:
         print('a = 8 了')
         break # 直接结束循环
     print('a：',a,end= ';')
-
 print( )
 # continue语句被用来告诉Python跳过当前循环块中的剩余语句，然后继续进行下一轮循环。
 for a in [1,2,3,4,5,5,6,7,7,8,8,9,9,10,12,13,14,56,78]:
     if a == 8:
-        print('a = 8 了',end=' ')
+        print('|a = 8| ',end=';')
         continue # 跳出本次循环
     print('a:',a,end= ';')
 print( )
@@ -40,7 +39,7 @@ for a in range(6):
 else:
     print('here is the end')
 # 例如
-for n in range(2, 100):
+for n in range(2, 20):
     for x in range(2, n):
         if n % x == 0:
             print(n, '=', x, '*', n//x)

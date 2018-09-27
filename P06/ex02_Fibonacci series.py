@@ -1,5 +1,6 @@
 # -*- coding:UTF-8 -*-
 #! /usr/bin/python3
+# 伏波纳希数列
 a,b = 0,1
 while b<2000:
     print(b,end=' ')
